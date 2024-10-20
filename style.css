@@ -1,0 +1,57 @@
+html {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(244,168,200);
+    background: -moz-linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    background: linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4a8c8",endColorstr="#006df6",GradientType=1);
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+hr {
+    margin-left: 0;
+    width: 80px;
+    background: #000;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select, input[type="radio"], input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+#result {
+    padding: 15px;
+    background-color: lightyellow;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 2px solid green;
+    display: none; /* Initially hidden */
+}
